@@ -22,6 +22,7 @@ function Pokelist(props) {
             setPokemonList(response.data.results);
         });
     }, []);
+    
 
     return (
         <Container>
